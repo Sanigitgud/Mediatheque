@@ -19,6 +19,14 @@ public class MainMediatheque {
                 case 3:
                     s = new Cd();    //choix 3 crée un Cd
                     break;
+                case 4:
+                	System.out.println("Option à venir .....");
+                    s = new Multimedia();    //choix 4 crée un Magazine
+                    break;
+                case 5:
+                	System.out.println("Option à venir .....");
+                    s = new Multimedia();    //choix 5 crée Carte Michelin
+                    break;
                 default:
                     s = new Multimedia();  //le choix défautls crée un multimedia non précisé (pas 0 ,1 ,2 ou 3)
                     break;
