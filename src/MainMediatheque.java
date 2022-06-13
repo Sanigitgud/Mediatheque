@@ -28,7 +28,7 @@ public class MainMediatheque {
                     s = new Multimedia();    //choix 5 crée Carte Michelin
                     break;
                 default:
-                    s = new Multimedia();  //le choix défautls crée un multimedia non précisé (pas 0 ,1 ,2 ou 3)
+                  //  s = new Multimedia();  //le choix défautls crée un multimedia non précisé (pas 0 ,1 ,2 ou 3)
                     break;
 
             }
