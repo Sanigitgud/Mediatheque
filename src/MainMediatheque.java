@@ -30,7 +30,7 @@ public class MainMediatheque {
                 default:
                   //  s = new Multimedia();  //le choix défautls crée un multimedia non précisé (pas 0 ,1 ,2 ou 3)
                     break;
-
+//
             }
             System.out.println(s);     //print l'object créé
             userChoice = Scan.scanInteger(question);
