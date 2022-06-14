@@ -26,7 +26,7 @@ public class Scan {
 			Scanner scan = new Scanner(System.in);
 			ret = scan.nextInt();
 		} catch (Exception exception) {
-			return 0;
+			return scanInteger("Entrer un nombre entier ! : ");
 		}
 
 		// scan.close();
