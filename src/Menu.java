@@ -25,10 +25,10 @@ public class Menu {
 		// Question pour le choix de l'objet a créer
 		String question = "Que voulez créer ?\n1- Livre\n2- DVD\n3- CD\n8- Display\n9- Save\n0- STOP";
 		Integer userChoice = Scan.scanInteger(question);
-		Support s = null;
 		// tant que la réponse n'est pas 0 (STOP) on continue la création d'objet
 		while (userChoice != 0) {
-
+            Support s = null;
+	
 			switch (userChoice) {
 			case 1:
 				s = new Livre(); // choix 1 crée un livre
@@ -51,6 +51,7 @@ public class Menu {
 				for (Support support : supports) {
 					System.out.println(support);
 				}
+                break;
 			case 9:
 				try {
 					SaveNLoad snl = new SaveNLoad();

@@ -9,3 +9,5 @@ bin/Utils/SaveNLoad.class
 bin/Utils/Scan.class
 bin/MainMediatheque.class
 bin/Menu.class
+bdd.xml
+bin/Utils/SaveNLoad.class
