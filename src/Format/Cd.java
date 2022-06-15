@@ -1,5 +1,5 @@
 package Format;
-import Utils.Scan;
+import Utils.*;
 
 public class Cd extends Multimedia{
     //Classe enfant de Multimedia

@@ -1,5 +1,5 @@
 package Format;
-import Utils.Scan;
+import Utils.*;
 
 public class Dvd extends Multimedia{
 

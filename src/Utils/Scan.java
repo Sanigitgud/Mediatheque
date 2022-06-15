@@ -1,5 +1,4 @@
 package Utils;
-import Utils.Scan;
 import java.util.Scanner;
 
 public class Scan {

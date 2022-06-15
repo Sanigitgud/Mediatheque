@@ -1,6 +1,8 @@
 package Format;
-import Utils.Scan;
-public abstract class Support {  
+import java.io.Serializable;
+
+import Utils.*;
+public abstract class Support implements Serializable {  
     //support en classe abstraite car ne sert pas a créer d'objet mais est utile pour donner le format des autres objets 
     protected String auteur;
     protected String titre;

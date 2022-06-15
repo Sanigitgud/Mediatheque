@@ -1,5 +1,5 @@
 package Format;
-import Utils.Scan;
+import Utils.*;
 
 public class Livre extends Support {
 //class enfant de Support

@@ -1,5 +1,5 @@
 package Format;
-import Utils.Scan;
+import Utils.*;
 
 public class Multimedia extends Support {
     //classe enfant de Support et Parent de Cd et Dvd
